@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.mainstyling
+{
+    height: 100vh;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/015/601/926/original/abstract-background-lemon-background-for-advertising-banner-with-fresh-lemon-illustration-vector.jpg");
+    background-size: cover;
+    width: 100%;
+}
+.homepage
+{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8vh;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vh;
+    max-height: 20vh;
+}
+.horizontal_card
+{
+    display: flex;
+    background-image: url("https://t3.ftcdn.net/jpg/03/08/93/46/360_F_308934657_5Q7cqp8BQSzrJ9DEJQ7G6bJfGAUJqETl.jpg");
+    background-size: cover;
+    width: 70vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+.horizontal_card:hover {
+    transform: scale(1.1);
+}
+.main_page_center_cards
+{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.aboutUsPage
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.form_card
+{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(149, 255, 128);
+    border-radius: 10px;
+}
+.reservationpage
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.contactPage
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
