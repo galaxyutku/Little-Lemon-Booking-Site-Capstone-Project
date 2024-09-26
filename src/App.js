@@ -6,9 +6,13 @@ import ReservationPage from "./views/ReservationPage";
 import AboutUsPage from "./views/AboutUsPage";
 import ContactPage from "./views/ContactPage";
 import NavBar from "./components/NavBar";
+import { AlertProvider } from "./context/alertContext";
+import Alert from "./components/Alert";
+import { ChakraProvider } from "@chakra-ui/react";
 
 function App() {
   return (
+    <AlertProvider>
     <div className="mainstyling">
       <Router>
         <NavBar />
@@ -20,6 +24,10 @@ function App() {
         </Routes>
       </Router>
     </div>
+    <ChakraProvider>
+      <Alert />
+    </ChakraProvider>
+    </AlertProvider>
   );
 }
 
