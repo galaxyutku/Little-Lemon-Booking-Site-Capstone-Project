@@ -18,9 +18,9 @@ Little Lemon is a delightful restaurant offering a wide range of culinary experi
 ## Features
 
 - **Responsive Design**: The website is designed to work seamlessly on both desktop and mobile devices.
-- **Homepage**: A welcoming introduction to the restaurant with highlights of the menu and special events.
+- **Homepage**: A welcoming introduction to the restaurant.
 - **Reservation Page**: Users can easily book a table by filling out a reservation form.
-- **Contact Page**: A simple contact form for inquiries and feedback.
+- **Contact Page**: A simple contact informations of restaurant.
 - **About Us Page**: Information about the restaurant's history and mission.
 
 ## Technologies Used
@@ -52,6 +52,6 @@ Open your browser and navigate to http://localhost:3000 to view the website.
    - Form includes fields for name, date, time, number of guests, and contact information.
    - Validation is handled using Formik and Yup.
 3. **Contact Page**: 
-   - Users can submit their inquiries through a contact form.
+   - Users can find contact informations of restaurant from.
 4. **About Us Page**: 
    - Details about the restaurant's story, values, and team.
